@@ -18,6 +18,8 @@ class ConfigureProviders {
     final database_mapper = DatabaseMapper();
     final movie_dao = MovieDao();
 
+
+
     final movies_repository = MovieRepositoryImpl(
         apiClient: api_client,
         networkMapper: network_mapper,
